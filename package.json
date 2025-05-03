@@ -1,0 +1,29 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">POKÉDEX</h1>",
+  "main": "./dist/js/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server dist",
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rickzinho3/POKEDEX.git"
+  },
+  "keywords": [
+    "pokedex"
+  ],
+  "author": "J henrique",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rickzinho3/POKEDEX/issues"
+  },
+  "homepage": "https://github.com/Rickzinho3/POKEDEX#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "typescript": "^5.8.3"
+  }
+}
