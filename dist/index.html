@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Typescript</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="infos">
+        <div class="input">
+            <input class="input" type="text" placeholder="Procure por um pokémon">
+            <button class="btn-search"><i class="fa-solid fa-magnifying-glass"></i> Buscar</button>
+            <h1 id="title" style="color: #ffffff; margin-left: 70px;">By Henrique</h1>
+        </div>
+        <h1 id="poke-id" style="color: aliceblue;"></h1>
+    </div>
+    <div class="failed_to_search" style="display: none;">
+        <p>Falha ao buscar o pokémon.</p>
+    </div>
+    <div class="container" style="display: none;">
+        <div class="box1">
+            <img class="poke-img" src="" alt="pokemon">
+            <div class="types">
+
+            </div>
+        </div>
+
+        <div class="box2">
+            <div class="pokemon-name">
+                <h1>Nome</h1>
+            </div>
+            <div class="abilities">
+                <h1 style="border-top: 2px solid;">Habilidades</h1>
+            </div>
+            <div class="basic-stats">
+                <h1 style="border-top: 2px solid;">Status Básico</h1>
+                <div class="stats">
+                    <div class="bar-inf"></div>
+                </div>
+            </div>
+            <div class="locations">
+                <h1 style="border-top: 2px solid;">Localizações</h1>
+            </div>
+        </div>
+    </div>
+    <div id="loading" class="loading-spinner" style="display: none;">
+        <div class="spinner"></div>
+    </div>
+</body>
+<script src="js/index.js"></script>
+</html>

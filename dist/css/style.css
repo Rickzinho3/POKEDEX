@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/dist/src/img.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+body p {
+    color: #ffffff;
+    text-transform: capitalize;
+    justify-content: n;
+}
+
+.container {
+    width: 800px;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 0 0 20px 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 3px 20px #000;
+}
+
+.infos {
+    background-color: #f7D02C;
+    width: 800px;
+    height: 80px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px 10px 20px;
+    z-index: 1;
+}
+
+.infos input {
+    padding: 10px;
+    width: 400px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: #c5a31d;
+}
+
+.infos button {
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all .1s linear;
+}
+
+.btn-search:hover {
+    background-color: #e8b900;
+    color: #fff;
+}
+
+.box1 {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 img {
+    width: 300px;
+}
+
+.box2 {
+    width: 400px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.box2 div {
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-name h1, .abilities h1, .basic-stats h1, .locations h1 {
+    color: #f7D02C;
+}
+
+.pokemon-name, .abilities, .basic-stats, .locations {
+    height: auto;
+    padding: 3px;
+    position: relative;
+}
+
+.basic-stats h1 {
+    margin-bottom: 10px;
+}
+
+.bar-stat {
+    display: flex;
+}
+
+.locations {
+    height: 100%;
+}
+
+/* Estilos para o indicador de carregamento */
+.loading-spinner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #f7D02C;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* ------------------------------------------- */
+
+.types {
+    display: flex;
+    gap: 10px;
+}
+
+.types div {
+    width: 100px;
+    height: 40px;
+    background-color: #7777;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: .9em;
+    font-weight: 600;
+}
+
+.input {
+    display: flex;
+    gap: 10px;
+}
+
+.failed_to_search {
+    width: auto;
+    height: auto;
+    margin-top: 20px;
+}
+
+.failed_to_search p {
+    text-transform: none;
+}
+
+.stats .bar {
+    width: 300px;
+    background-color: rgb(173, 173, 173);
+    height: 10px;
+    margin-bottom: 3px;
+    border-radius: 50px;
+}
+
+.data {
+    /* width: 48px; */
+    height: 10px;
+    background-color: #f7D02C;
+    position: absolute;
+    margin-top: 38px;
+    border-radius: 50px;
+}
+
+.stats-inf {
+    margin-bottom: 10px;
+}
+
+.stats-inf p:nth-child(2) {
+    color: #f7D02C;
+}
