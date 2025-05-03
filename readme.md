@@ -1,1 +1,1 @@
-<h1 align+center>POKÉDEX</h1>
+<h1 align="center">POKÉDEX</h1>
