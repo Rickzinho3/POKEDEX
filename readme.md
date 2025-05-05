@@ -4,25 +4,25 @@
 
 ## Para utilizar este projeto na sua máquina:
 
-Clone o repositório <br>
+Clone o repositório
 
 ```sh
 git clone https://github.com/Rickzinho3/POKEDEX.git
 ```
 
-Entre no diretório <br>
+Entre no diretório
 
 ```sh
 cd POKEDEX
 ```
 
-Instale as dependências >br>
+Instale as dependências
 
 ```sh
 npm install
 ```
 
-Agora basta rodar <br>
+Agora basta rodar
 
 ```sh
 npm start
