@@ -6,18 +6,26 @@
 
 Clone o repositório <br>
 
-> `git clone https://github.com/Rickzinho3/POKEDEX.git` <br>
+```sh
+git clone https://github.com/Rickzinho3/POKEDEX.git
+```
 
 Entre no diretório <br>
 
-> `cd POKEDEX` <br>
+```sh
+cd POKEDEX
+```
 
 Instale as dependências >br>
 
-> `npm install` <br>
+```sh
+npm install
+```
 
 Agora basta rodar <br>
 
-> `npm start`
+```sh
+npm start
+```
 
 <p align=center>Henrique, J. F. S. &copy; 2025</p>
